@@ -17,8 +17,8 @@ Is an application to Calculate discount depending on Discount types.
  
 # How to call API:
 For User:<br/>
-Retrieve all users : http://localhost:8080/user/getAllUser <br/>
-Retrive a user: http://localhost:8080/user/getUser<br/>
+Retrieve all users : http://localhost:8080/users/getAllUser <br/>
+Retrive a user: http://localhost:8080/users/getUser<br/>
 To create or update user with (parameter userTypeId): http://localhost:8080/user/addUser/userTypeId<br/>
 
 For Invoice:<br/>
