@@ -17,13 +17,13 @@ Is an application to Calculate discount depending on Discount types.
  
 # How to call API:
 For User:<br/>
-Retrieve all users : http://localhost:8080/users/getAllUser <br/>
+Retrieve all users : http://localhost:8080/users/getAllUsers <br/>
 Retrive a user: http://localhost:8080/users/getUser<br/>
 To create or update user with (parameter userTypeId): http://localhost:8080/user/addUser/userTypeId<br/>
 
 For Invoice:<br/>
 Get all bills: http://localhost:8080/invoice/getAllInvoices<br/>
-To create bill with parameters old_price and user_id:  http://localhost:8080/bill/calculateInvoice/old_price/user_id
+To create bill with parameters old_price and user_id:  http://localhost:8080/invoice/calculateInvoice/old_price/user_id
 # UML Class Diagram
 ![Capture](https://user-images.githubusercontent.com/53252416/89206618-33f09d00-d5c2-11ea-8693-50afee9deb52.PNG)
 
